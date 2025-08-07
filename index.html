@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>xlito</title>
+  <link rel="icon" type="image/x-icon" href="assets/profile_image.jpg" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <video autoplay muted loop playsinline id="bg-video">
+    <source src="assets/background.mp4" type="video/mp4" />
+  </video>
+
+  <div class="center-content">
+    <h1>xlito</h1>
+    <div class="profile-box">
+      <img src="assets/profile_image.jpg" alt="Profil" class="profile-img" />
+      <div class="profile-info">
+        <strong>x.lito</strong>
+      </div>
+    </div>
+    <div class="icons">
+      <a href="https://discord.com/users/1229158305256046694" target="_blank" rel="noopener noreferrer">
+        <img src="assets/discord.png" alt="Discord" />
+      </a>
+      <a href="https://paypal.com" target="_blank" rel="noopener noreferrer">
+        <img src="assets/paypal.png" alt="PayPal" />
+      </a>
+      <a href="https://litecoin.org" target="_blank" rel="noopener noreferrer">
+        <img src="assets/ltc.png" alt="Litecoin" />
+      </a>
+      <a href="https://sc-rp.de" target="_blank" rel="noopener noreferrer">
+        <img src="assets/web.png" alt="Website" />
+      </a>
+    </div>
+  </div>
+
+  <div class="audio-player">
+    <audio id="bg-audio" src="assets/music.mp3"></audio>
+    <button id="play-pause" aria-label="Play/Pause">&#9658;</button>
+    <div class="volume-container" id="volume-container" title="Lautstärke">
+      <div class="volume-bar" id="volume-bar"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
